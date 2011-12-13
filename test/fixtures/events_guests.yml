@@ -1,0 +1,11 @@
+one:
+  guest_id: 1
+  event_id: 1
+
+two:
+  guest_id: 2
+  event_id: 1
+
+three:
+  guest_id: 2
+  event_id: 2

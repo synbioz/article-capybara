@@ -1,0 +1,13 @@
+<h1>Listing guests</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+  </tr>
+
+<% @guests.each do |guest| %>
+  <tr class="guest">
+    <td><%= guest.name %></td>
+  </tr>
+<% end %>
+</table>
